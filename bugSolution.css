@@ -1,0 +1,14 @@
+The solution is to specify units (e.g., `em` or `rem`) for the `line-height` property to ensure consistent spacing regardless of the font size. 
+```css
+.element {
+  font-size: 100%;
+  line-height: 1.5em; /* Added 'em' unit for consistent line height */
+}
+```
+Using `rem` will make it relative to the root font-size for better scalability across the entire page.
+```css
+.element {
+  font-size: 100%;
+  line-height: 1.5rem; /* Using 'rem' for better scalability*/
+}
+```
