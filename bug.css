@@ -1,0 +1,7 @@
+The following CSS code snippet demonstrates an uncommon error: using a unitless value for the `line-height` property with a percentage-based font-size. This can lead to unexpected results and inconsistent line heights across different font sizes and browsers.  
+```css
+.element {
+  font-size: 100%;
+  line-height: 1.5; /* Unitless line-height with percentage font-size */
+}
+```
